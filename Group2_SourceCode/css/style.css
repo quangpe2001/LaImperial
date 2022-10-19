@@ -1138,7 +1138,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  background: #efefef;
+  border-top: solid;
+  background: #ffffff;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1685,3 +1686,65 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+.me{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.me a{
+  text-decoration: none;
+  color: black;
+  font-size:large;
+}
+.quang{
+  color: black;
+}
+.quang1{
+  margin-left: 55%;
+}
+.login{
+  background-color: rgb(128, 57, 6);
+  color: white;
+  border: solid;
+  width: 105px;
+  height: 35px;
+  text-align: center;
+}
+.register{
+  background-color: white;
+  color: BLACK;
+  border: solid;
+  width: 105px;
+  text-align: center;
+}
+.category{
+  float: right;
+}
+.quang_category{
+  width: 15%;
+  height: 15%;
+}
+.quang_category1{
+  width: 7%;
+  height: 7%;
+}
+.quang_category2{
+  width: 15%;
+  height: 15%;
+}
+.quang_category3{
+  width: 12%;
+  height: 12%;
+}
+.quang_category4{
+  width: 12%;
+  height: 12%;
+}
+.quang_category5{
+  width: 7%;
+  height: 7%;
+}
+.quang_category6{
+  width: 10%;
+  height: 10%;
+}
