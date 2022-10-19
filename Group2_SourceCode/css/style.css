@@ -1700,7 +1700,9 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 }
 .quang1{
-  margin-left: 55%;
+  border-left: solid;
+  margin-left: 50%;
+  padding-left: 10%;
 }
 .login{
   background-color: rgb(128, 57, 6);
