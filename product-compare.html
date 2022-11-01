@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Footer -->
+			<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+			<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+			<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    
+    <title>Product Compare By Vy</title>
+	<!-- Product-compare External Files -->
+	<!-- CSS -->
+    <link rel="stylesheet" href="css/product-compare.css">
+	<!-- Jquery -->
+	<script src="js/product-compare.jquery.min.js"></script>
+	<!-- JS -->
+	<script src="js/about.js"></script>
+</head>
+<body>
+    <div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-2">
+						<div id="fh5co-logo"><a href="index.html"> 
+							<img src="images/Quang logo.jpg" height="30px" weight="30px">&nbsp; La Imperial.</a></div>
+					</div>
+					<div class="col-md-6 col-xs-6 text-center menu-1">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li class="has-dropdown" style="height: 10%; width: 10%;">
+								<a href="product.html">Shop</a>
+								<ul class="dropdown">
+									<li class="Qtitle">Air Conditioners and Fans</li>
+									<li><a href="product-type-ac.html">Air Conditioners</a></li>
+									<li><a href="product-type-fan.html">Fans</a></li>
+									<li class="Qtitle">TVs and Stereo Systems</li>
+									<li><a href="product-type-tv.html">TVs</a></li>
+									<li><a href="product-type-stereo.html">Stereo systems</a></li>
+									<li class="Qtitle">Washing machines and Ironings</li>
+									<li><a href="product-type-washer.html">Washing machines</a></li>
+									<li><a href="product-type-ironing.html">Ironing</a></li>
+								</ul>
+							</li>
+							<li><a href="product-compare.html">Compare</a></li>
+							<li class="has-dropdown">
+								<a href="contact.html">Contact</a>
+							</li>
+							<li><a href="about.html">About us</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
+						<ul>
+							<li class="login"><a href="login.html"><span style="font-weight: bold; color: white">Login</span></a></li>
+							<li class="register"><a href="register.html"><span style="font-weight: bold;">Register</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="mywork">
+			<div class="about-title">
+				<h1><i class="fa-solid fa-star" style="font-size:10px"></i>
+					<i class="fa-solid fa-star" style="font-size:20px"></i>
+					<i class="fa-solid fa-star" style="font-size:30px"></i>
+					 Comparison
+					<i class="fa-solid fa-star" style="font-size:30px"></i>
+					<i class="fa-solid fa-star" style="font-size:20px"></i>
+					<i class="fa-solid fa-star" style="font-size:10px"></i>
+				</h1>
+			</div>
+            <div class="product-compare-area">
+				<!-- First product -->
+				<div class="product-compare-left">
+					<div class="product-compare-menu">
+						<div>
+							<label for="inputProductNo1">Types</label>
+							<select id="dpdlTypeL">
+								<option selected>Choose Type</option>
+								<optgroup label="Air Conditioners and Fans">
+									<option value="AC">Air Conditioners</option>
+									<option value="FS">Fans</option>
+								</optgroup>
+								<optgroup label="TVs and Stereo Systems">
+									<option value="TV">TVs</option>
+									<option value="SS">Stereo Systems</option>
+								</optgroup>
+								<optgroup label="Washing Machines and Ironings">
+									<option value="WM">Washing Machines</option>
+									<option value="IS">Ironings</option>
+								</optgroup>
+							</select>
+						</div>
+						<div>
+							<label for="inputBrand">Brands</label>
+							<select id="dpdlBrandL">
+								<option selected>Choose Brand</option>
+							</select>
+						</div>
+						<div>
+							<label for="inputBrand">Products</label>
+							<select id="dpdlProductNo1">
+								<option selected>Choose Product</option>
+							</select>
+						</div>
+					</div>
+					<div class="product-compare-content">
+						<table border="0" class="product-compare-data-1" id="AC1_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">8000 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient, Dehumidif</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">15.75"D x 18.5"W x 13.4"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="AC2_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">24,500 Window-Mounted AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Remote Control</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">26"D x 28.13"W x 17.7"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="AC3_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-03-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">5000 Window-Mounted AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">13.19"D x 15.98"W x 12.05"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-03.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_03.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="AC4_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-04-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">5000 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">13.19"D x 15.98"W x 12.05"H </td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-04.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_04.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="AC5_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-05-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">14500 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Dehumidifier</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">19"D x 21.5"W x 14.6"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-05.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_05.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="AC6_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-06-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">6000 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient, Dehumidifier</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">15.75"D x 18.5"W x 13.4"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-06.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_06.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="AC7_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-07-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">14,000 Through-The-Wall AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Digital Display</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">20.3"D x 24.2"W x 14.5"H </td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-07.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_07.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="F1_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-F-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Personal Desktop Heater</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Portable</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Power Source</td>
+								<td class="product-compare-data-value">Corded Electric</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-FS-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/F_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="F2_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-F-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Stand Fan</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Programmable</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Power Source</td>
+								<td class="product-compare-data-value">AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-FS-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/F_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="TV1_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-TV-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">HD webOS 3.5 Smart TV</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Flat</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Screen Size</td>
+								<td class="product-compare-data-value">24 Inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-TV-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/TV_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="TV2_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-TV-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">4K UHD Smart TV</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Dynamic Crystal Color, 4K</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Screen Size</td>
+								<td class="product-compare-data-value">43 Inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-TV-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/TV_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="SS1_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-SS-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Wireless Bluetooth Stereo</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Speaker Type</td>
+								<td class="product-compare-data-value">Stereo</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Color</td>
+								<td class="product-compare-data-value">Blue, Black</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-SS-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/S_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="SS2_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-SS-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Home Music System</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Speaker Type</td>
+								<td class="product-compare-data-value">Stereo</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Color</td>
+								<td class="product-compare-data-value">Black</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-SS-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/S_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="WM1_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-W-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Smart TurboWash3D Washer</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Capacity</td>
+								<td class="product-compare-data-value">5.5 Cubic Feet</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">10"D x 31"W x 29"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-WM-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/W_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="WM2_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-W-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Small Portable Washer</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Capacity</td>
+								<td class="product-compare-data-value">0.9 Cubic Feet</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">17.7"D x 18.1"W x 31.5"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-WM-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/W_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="IS1_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-IR-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Digital Display Steam Iron</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Auto Shut Off</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">11.4L x 4.9W x 6H inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-IS-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/I_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="IS2_L">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-IR-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Compact Steam Iron</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Easy Cord Storage</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">4L x 11W x 6H inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-IS-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/I_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<!-- Second Product -->
+				<div class="product-compare-right">
+					<div class="product-compare-menu">
+						<div>
+							<label for="inputProductNo2">Types</label>
+							<select id="dpdlTypeR">
+								<option selected>Choose Type</option>
+								<optgroup label="Air Conditioners and Fans">
+									<option value="AC">Air Conditioners</option>
+									<option value="FS">Fans</option>
+								</optgroup>
+								<optgroup label="TVs and Stereo Systems">
+									<option value="TV">TVs</option>
+									<option value="SS">Stereo Systems</option>
+								</optgroup>
+								<optgroup label="Washing Machines and Ironings">
+									<option value="WM">Washing Machines</option>
+									<option value="IS">Ironings</option>
+								</optgroup>
+							</select>
+						</div>
+						<div>
+							<label for="inputBrand">Brands</label>
+							<select id="dpdlBrandR">
+								<option selected>Choose Brand</option>
+							</select>
+						</div>
+						<div>
+							<label for="inputBrand">Products</label>
+							<select id="dpdlProductNo2">
+								<option selected>Choose Product</option>
+							</select>
+						</div>
+					</div>
+					<div class="product-compare-content">
+						<table border="0" class="product-compare-data-2" id="AC1_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">8000 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient, Dehumidif</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">15.75"D x 18.5"W x 13.4"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="AC2_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">24,500 Window-Mounted AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Remote Control</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">26"D x 28.13"W x 17.7"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="AC3_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-03-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">5000 Window-Mounted AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">13.19"D x 15.98"W x 12.05"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-03.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_03.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="AC4_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-04-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">5000 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">13.19"D x 15.98"W x 12.05"H </td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-04.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_04.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="AC5_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-05-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">14500 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Dehumidifier</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">19"D x 21.5"W x 14.6"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-05.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_05.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="AC6_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-06-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">6000 Window AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Energy Efficient, Dehumidifier</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">15.75"D x 18.5"W x 13.4"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-06.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_06.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="AC7_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-AC-07-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">14,000 Through-The-Wall AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Digital Display</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">20.3"D x 24.2"W x 14.5"H </td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-AC-07.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/AC_07.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="F1_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-F-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Personal Desktop Heater</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Portable</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Power Source</td>
+								<td class="product-compare-data-value">Corded Electric</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-FS-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/F_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="F2_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-F-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Stand Fan</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Programmable</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Power Source</td>
+								<td class="product-compare-data-value">AC</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-FS-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/F_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="TV1_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-TV-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">HD webOS 3.5 Smart TV</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Flat</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Screen Size</td>
+								<td class="product-compare-data-value">24 Inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-TV-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/TV_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="TV2_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-TV-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">4K UHD Smart TV</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Dynamic Crystal Color, 4K</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Screen Size</td>
+								<td class="product-compare-data-value">43 Inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-TV-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/TV_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="SS1_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-SS-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Wireless Bluetooth Stereo</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Speaker Type</td>
+								<td class="product-compare-data-value">Stereo</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Color</td>
+								<td class="product-compare-data-value">Blue, Black</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-SS-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/S_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-1" id="SS2_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-SS-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Home Music System</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Speaker Type</td>
+								<td class="product-compare-data-value">Stereo</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Color</td>
+								<td class="product-compare-data-value">Black</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-SS-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/S_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="WM1_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-W-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Smart TurboWash3D Washer</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Capacity</td>
+								<td class="product-compare-data-value">5.5 Cubic Feet</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">10"D x 31"W x 29"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-WM-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/W_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="WM2_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-W-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Small Portable Washer</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Capacity</td>
+								<td class="product-compare-data-value">0.9 Cubic Feet</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">17.7"D x 18.1"W x 31.5"H</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-WM-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-WM-02.html">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="IS1_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-IR-01-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Digital Display Steam Iron</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Auto Shut Off</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">11.4L x 4.9W x 6H inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-IS-01.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/I_01.docx">Click Here</a></td>
+							</tr>
+						</table>
+						<table border="0" class="product-compare-data-2" id="IS2_R">
+							<tr>
+								<td colspan="2" class="product-compare-image"><img src="/images/product-details-images/Product-detail-IR-02-01.jpg" alt=""></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Name</td>
+								<td class="product-compare-data-value">Compact Steam Iron</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Special Features</td>
+								<td class="product-compare-data-value">Easy Cord Storage</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Product Dimensions</td>
+								<td class="product-compare-data-value">4L x 11W x 6H inches</td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">More Information</td>
+								<td class="product-compare-data-value"><a href="/product-detail-IS-02.html">Click Here</a></td>
+							</tr>
+							<tr>
+								<td class="product-compare-data-title">Download Information</td>
+								<td class="product-compare-data-value"><a href="/WordToDownload/I_02.docx">Click Here</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+        </div>
+		
+		<!-- Begin footer section -->
+<br> <br>
+<footer class="container-fluid bg-grey py-5">
+<div class="container">
+   <div class="row">
+	  <div class="col-md-6">
+		 <div class="row">
+			<div class="col-md-6 ">
+			   <div class="logo-part">
+				  <h3 class="footfont">La Imperial.</h3>
+				  <p>397A, Nam Ky Khoi Nghia, Dist 3, HCMC.</p>
+				  <p>Provide best quality products for your cozy little home.</p>
+			   </div>
+			</div>
+			<div class="col-md-6 px-4">
+			   <h6 class="footfontx"> About Our Team</h6>
+			   <p>Always looking forward for any advice and constructive critisms.</p>
+			   <a href="about.html" class="btn-footer"> More Info </a><br>
+			   <a href="contact.html" class="btn-footer"> Contact Us</a>
+			</div>
+		 </div>
+	  </div>
+	  <div class="col-md-6">
+		 <div class="row">
+			<div class="col-md-6 px-4">
+			   <h6 class="footfontx"> Quick links</h6>
+			   <div class="row ">
+				  <div class="col-md-6">
+					 <ul>
+						<li> <a href="index.html"> - Home</a> </li>
+						<li> <a href="product.html"> - Shop</a> </li>
+						<li> <a href="product-compare.html"> - Compare</a> </li>
+						<li> <a href="about.html"> - About</a> </li>
+						<li> <a href="contact.html"> - Contact</a> </li>
+						<li> <a href="login.html"> - Login</a> </li>
+						<li> <a href="register.html"> - Register</a> </li>
+					 </ul>
+				  </div>
+				  <div class="col-md-6 px-4">
+					 <ul>
+						<li> <a href="product-category-lg.html"> - Only LG</a> </li>
+						<li> <a href="product-category-samsung.html"> - Only Samsung</a> </li>
+						<li> <a href="product-category-comfee.html"> - Only Comfee</a> </li>
+						<li> <a href="product-type-ironing.html"> - Only Ironings</a> </li>
+						<li> <a href="product-type-fan.html"> - Only Fans</a> </li>
+						<li> <a href="product-type-tv.html"> - Only TVs</a> </li>
+					 </ul>
+				  </div>
+			   </div>
+			</div>
+			<div class="col-md-6 ">
+			   <h6 class="footfontx"> Newsletter</h6>
+			   <p style="font-size:15px;">Admin contacts:</p>
+			   <div class="social">
+				  <a href="https://github.com/quangpe2001/LaImperial"><i class="fa fa-github" aria-hidden="true"></i></a>
+				  <a href="https://www.facebook.com/masonhh"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				  <a href="https://www.instagram.com/thebypassss/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			   </div>
+			   <br>
+			   <p>Give us a word to describe us, let it empty to say "No words can describe you guys lol".</p>
+               <p><input type="email" id="emailinput"  placeholder="Type here..." name="search"></p>
+               <form class="form-footer my-3" onsubmit="submitEmail()">
+                  <p class="subbut"><input type="button" onclick="submitEmail()"  value="Send" ></p>
+               </form>
+			</div>
+		 </div>
+	  </div>
+   </div>
+</div>
+</div>
+<!-- End footer section -->
+	</div>    
+
+    <div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<div>
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- countTo -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- Flexslider -->
+		<script src="js/jquery.flexslider-min.js"></script>
+		<!-- Main -->
+		<script src="js/main.js"></script>
+		
+		<!-- Product-compare External Files  -->
+		<script src="js/product-compare-2.jquery.min.js"></script>
+	</div>
+</body>
+<script src="js/nam_index.js"></script>
+</html>
